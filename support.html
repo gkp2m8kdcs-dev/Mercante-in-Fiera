@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Support center for Mercante in Fiera. Find answers to common questions and contact our team.">
+    <title>Support - Mercante in Fiera</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #0f3460 100%);
+            min-height: 100vh;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+
+        header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 25px 20px;
+            background: rgba(255, 255, 255, 0.05);
+            border-radius: 16px;
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px;
+            background: linear-gradient(135deg, #e94560 0%, #c23152 100%);
+            border-radius: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: 0 8px 25px rgba(233, 69, 96, 0.4);
+            font-size: 40px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2rem;
+            margin-bottom: 5px;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #a8a8b3;
+            font-size: 0.95rem;
+        }
+
+        .content-card {
+            background: rgba(255, 255, 255, 0.97);
+            border-radius: 16px;
+            padding: 40px;
+            margin-bottom: 25px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+        }
+
+        h2 {
+            color: #1a1a2e;
+            margin-bottom: 20px;
+            font-size: 1.5rem;
+            border-bottom: 3px solid #e94560;
+            padding-bottom: 10px;
+            display: inline-block;
+        }
+
+        h3 {
+            color: #1a1a2e;
+            margin: 20px 0 10px;
+            font-size: 1.15rem;
+        }
+
+        p {
+            margin-bottom: 15px;
+            color: #444;
+        }
+
+        .faq-item {
+            border-bottom: 1px solid #eee;
+            padding: 15px 0;
+        }
+
+        .faq-item:last-child {
+            border-bottom: none;
+        }
+
+        .faq-question {
+            font-weight: 600;
+            color: #1a1a2e;
+            margin-bottom: 8px;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        .faq-icon {
+            color: #e94560;
+            margin-right: 10px;
+            font-weight: bold;
+        }
+
+        .faq-answer {
+            color: #555;
+            padding-left: 24px;
+        }
+
+        .contact-box {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 12px;
+            padding: 25px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .contact-box .email {
+            font-size: 1.3rem;
+            font-weight: 600;
+            color: #e94560;
+            margin: 10px 0;
+        }
+
+        .contact-box a {
+            color: #e94560;
+            text-decoration: none;
+        }
+
+        .contact-box a:hover {
+            text-decoration: underline;
+        }
+
+        .email-button {
+            display: inline-block;
+            padding: 12px 28px;
+            background: #e94560;
+            color: #fff;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+            margin-top: 10px;
+            transition: background 0.2s, transform 0.2s;
+        }
+
+        .email-button:hover {
+            background: #c23152;
+            transform: translateY(-2px);
+        }
+
+        ul {
+            margin: 10px 0 20px 25px;
+            color: #444;
+        }
+
+        li {
+            margin-bottom: 8px;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 30px 20px;
+            color: #a8a8b3;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #e94560;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 600px) {
+            h1 { font-size: 1.6rem; }
+            .content-card { padding: 25px; }
+            .container { padding: 20px 15px; }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="app-icon">🛠️</div>
+            <h1>Support Center</h1>
+            <p class="subtitle">We're here to help you enjoy the game</p>
+        </header>
+
+        <div class="content-card">
+            <h2>Contact Us</h2>
+            <p>
+                The fastest way to reach a real human is by email. We read every message
+                and reply as quickly as we can.
+            </p>
+            <div class="contact-box">
+                <p style="margin-bottom: 5px;">Drop us a line at:</p>
+                <p class="email">
+                    <a href="mailto:dhfu94086@gmail.com">dhfu94086@gmail.com</a>
+                </p>
+                <a href="mailto:dhfu94086@gmail.com" class="email-button">Send Email</a>
+                <p style="margin-top: 15px; font-size: 0.9rem; color: #666;">
+                    Typical response time: 1–2 business days
+                </p>
+            </div>
+            <p>
+                When you write in, please include your device model, iOS version, and a
+                brief description of the issue. Screenshots are always appreciated.
+            </p>
+        </div>
+
+        <div class="content-card">
+            <h2>Frequently Asked Questions</h2>
+
+            <div class="faq-item">
+                <div class="faq-question"><span class="faq-icon">Q.</span> How do I start a new game?</div>
+                <div class="faq-answer">
+                    Open the app, choose <strong>Play</strong> from the home screen, then
+                    pick your mode: Solo vs AI, or local Pass-and-Play with friends.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question"><span class="faq-icon">Q.</span> Where is my progress saved?</div>
+                <div class="faq-answer">
+                    Everything is saved locally on your device. If you uninstall and
+                    reinstall the app, your saved data will be removed.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question"><span class="faq-icon">Q.</span> Can I play with friends online?</div>
+                <div class="faq-answer">
+                    The current version supports local Pass-and-Play on a single device
+                    and Solo vs AI modes. Online multiplayer is not available yet.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question"><span class="faq-icon">Q.</span> How do I change my profile picture?</div>
+                <div class="faq-answer">
+                    Go to <strong>Profile</strong>, tap your avatar, and choose either
+                    "Take Photo" or "Choose from Library." You can revoke the camera or
+                    photo permission at any time from iOS Settings.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question"><span class="faq-icon">Q.</span> Can I reset my achievements or stats?</div>
+                <div class="faq-answer">
+                    Yes. Head to <strong>Settings → Reset Progress</strong> to clear all
+                    local data. This action cannot be undone.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question"><span class="faq-icon">Q.</span> The app feels laggy or crashes. What should I do?</div>
+                <div class="faq-answer">
+                    Please make sure your iPhone is running the latest version of iOS and
+                    the App Store version of Mercante in Fiera. If the issue persists,
+                    restart the device and email us with details.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question"><span class="faq-icon">Q.</span> Does the app contain ads or track me?</div>
+                <div class="faq-answer">
+                    No. Mercante in Fiera contains no ads and no third-party tracking.
+                    See our <a href="privacy.html">Privacy Policy</a> for details.
+                </div>
+            </div>
+
+            <div class="faq-item">
+                <div class="faq-question"><span class="faq-icon">Q.</span> Will the rules ever change?</div>
+                <div class="faq-answer">
+                    We aim to faithfully preserve the traditional Mercante in Fiera rules.
+                    Any rule changes will be clearly documented in the in-app rulebook and
+                    release notes.
+                </div>
+            </div>
+        </div>
+
+        <div class="content-card">
+            <h2>Helpful Resources</h2>
+            <p>Quick links to other important information:</p>
+            <ul>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+                <li><a href="terms.html">Terms of Use</a></li>
+                <li><a href="index.html">App home page</a></li>
+            </ul>
+        </div>
+
+        <footer class="footer">
+            <p>
+                © 2026 Mercante in Fiera · Made with ❤️ for card game lovers everywhere
+            </p>
+            <p style="margin-top: 10px;">
+                <a href="index.html">Home</a> ·
+                <a href="privacy.html">Privacy</a> ·
+                <a href="terms.html">Terms</a>
+            </p>
+        </footer>
+    </div>
+</body>
+</html>
